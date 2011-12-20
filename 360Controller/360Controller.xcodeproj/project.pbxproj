@@ -333,7 +333,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				MACOSX_DEPLOYMENT_TARGET = 10.2;
-				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.2.8.sdk";
+				SDKROOT = macosx;
 			};
 			name = Development;
 		};
@@ -344,7 +344,7 @@
 				GCC_VERSION = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.2;
 				SDKROOT = macosx;
-				"SDKROOT[arch=x86_64]" = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+				"SDKROOT[arch=x86_64]" = macosx;
 			};
 			name = Deployment;
 		};
@@ -352,7 +352,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				MACOSX_DEPLOYMENT_TARGET = 10.2;
-				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.2.8.sdk";
+				SDKROOT = macosx;
 			};
 			name = Default;
 		};
