@@ -1,0 +1,431 @@
+T360Controller
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/360Controller.kext/Contents/Info.plist Info.plist
+cCopyStringsFile /Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/360Controller.kext/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileC build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/_60Controller.o /Users/asarazan/Downloads/360ControllerSource/360Controller/_60Controller.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/Controller.o /Users/asarazan/Downloads/360ControllerSource/360Controller/Controller.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/ChatPad.o /Users/asarazan/Downloads/360ControllerSource/360Controller/ChatPad.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/chatpadkeys.o /Users/asarazan/Downloads/360ControllerSource/360Controller/chatpadkeys.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/360Controller_info.o /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources/360Controller_info.c normal i386 c com.apple.compilers.llvmgcc42
+cCompileC build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/Controller.o /Users/asarazan/Downloads/360ControllerSource/360Controller/Controller.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+cCompileC build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/_60Controller.o /Users/asarazan/Downloads/360ControllerSource/360Controller/_60Controller.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+cCompileC build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/ChatPad.o /Users/asarazan/Downloads/360ControllerSource/360Controller/ChatPad.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+cCompileC build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/chatpadkeys.o /Users/asarazan/Downloads/360ControllerSource/360Controller/chatpadkeys.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+cCompileC build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/360Controller_info.o /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources/360Controller_info.c normal x86_64 c com.apple.compilers.llvmgcc42
+cLd /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/360Controller normal i386
+cLd /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/360Controller normal x86_64
+cCreateUniversalBinary /Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/360Controller.kext/Contents/MacOS/360Controller normal "i386 x86_64"
+cPhaseScriptExecution "Run Script" /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Script-3B0F12A1097B3A3A00127827.sh
+cTouch /Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/360Controller.kext
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004E34501C00000000000000EE
+t1312051228
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOLib.h
+c000000004C2399470000000000004DDF
+t1277401415
+s19935
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOMessage.h
+c000000004C2399470000000000000DE0
+t1277401415
+s3552
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOTimerEventSource.h
+c000000004C2399480000000000002B1D
+t1277401416
+s11037
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/hid/IOHIDDevice.h
+c000000004C23A32E0000000000007D6C
+t1277403950
+s32108
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/usb/IOUSBDevice.h
+c000000004C23BE830000000000006ED5
+t1277410947
+s28373
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/usb/IOUSBInterface.h
+c000000004C23BE830000000000002FB5
+t1277410947
+s12213
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/ChatPad.cpp
+c000000004DFABA0C0000000000000EFA
+t1308277260
+s3834
+i<IOKit/IOLib.h>
+i"ChatPad.h"
+i"chatpadhid.h"
+i"chatpadkeys.h"
+i"_60Controller.h"
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/ChatPad.h
+c000000004DFABA0C0000000000000503
+t1308277260
+s1283
+i<IOKit/hid/IOHIDDevice.h>
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/ControlStruct.h
+c00000000462AD8780000000000000CD7
+t1177213048
+s3287
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/Controller.cpp
+c000000004E06DF0C00000000000015D3
+t1309073164
+s5587
+i<IOKit/usb/IOUSBDevice.h>
+i<IOKit/usb/IOUSBInterface.h>
+i"Controller.h"
+i"ControlStruct.h"
+i"xbox360hid.h"
+i"_60Controller.h"
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/Controller.h
+c000000004DFABA0C00000000000004E5
+t1308277260
+s1253
+i<IOKit/hid/IOHIDDevice.h>
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/English.lproj/InfoPlist.strings
+c000000004B07C9DE0000000000000104
+t1258801630
+s260
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/_60Controller.cpp
+c000000004DFABA0C0000000000005D82
+t1308277260
+s23938
+i<IOKit/IOLib.h>
+i<IOKit/IOMessage.h>
+i<IOKit/IOTimerEventSource.h>
+i"_60Controller.h"
+i"ControlStruct.h"
+i"ChatPad.h"
+i"Controller.h"
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/_60Controller.h
+c000000004DFABA0C0000000000000EFC
+t1308277260
+s3836
+i<IOKit/hid/IOHIDDevice.h>
+i<IOKit/usb/IOUSBDevice.h>
+i<IOKit/usb/IOUSBInterface.h>
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources/360Controller_info.c
+c000000004EF00D5200000000000001AB
+t1324354898
+s427
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/360Controller
+t1324354900
+s59148
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/360Controller.LinkFileList
+c000000004EF00D520000000000000259
+t1324354898
+s601
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/360Controller_info.o
+t1324354899
+s640
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/ChatPad.o
+t1324354900
+s30440
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/Controller.o
+t1324354900
+s31644
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/_60Controller.o
+t1324354900
+s34728
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/chatpadkeys.o
+t1324354899
+s416
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/360Controller
+t1324354900
+s68200
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/360Controller.LinkFileList
+c000000004EF00D520000000000000261
+t1324354898
+s609
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/360Controller_info.o
+t1324354900
+s828
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/ChatPad.o
+t1324354900
+s31428
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/Controller.o
+t1324354900
+s32728
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/_60Controller.o
+t1324354900
+s36428
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/chatpadkeys.o
+t1324354900
+s568
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Script-3B0F12A1097B3A3A00127827.sh
+c000000004EF00D52000000000000016F
+t1324354898
+s367
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/360Controller.kext
+t1324354900
+s102
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/360Controller.kext/Contents/Info.plist
+t1324354899
+s7020
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/360Controller.kext/Contents/MacOS/360Controller
+t1324354900
+s133736
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/360Controller.kext/Contents/Resources/English.lproj/InfoPlist.strings
+t1324354899
+s260
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/chatpadhid.h
+c000000004B07C9DE000000000000077D
+t1258801630
+s1917
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/chatpadkeys.cpp
+c000000004B07C9DE00000000000003D1
+t1258801630
+s977
+i"chatpadkeys.h"
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/chatpadkeys.h
+c000000004B07C9DE00000000000000C1
+t1258801630
+s193
+
+N/Users/asarazan/Downloads/360ControllerSource/360Controller/xbox360hid.h
+c00000000462AD8780000000000001B4F
+t1177213048
+s6991
+
+NInfo.plist
+c000000004DC78B940000000000001A14
+t1304923028
+s6676
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies8d97b2f244a0b441^4be4daf244a0b441^---0#1#0#--18"Check dependencies36"75E72C5B-8ADD-4851-B13F-EB6CDD350974-
+
+CCompileC build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/360Controller_info.o /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources/360Controller_info.c normal i386 c com.apple.compilers.llvmgcc42
+s346047699.062077
+e346047699.291613
+r1
+xCompileC
+xbuild/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/360Controller_info.o
+x/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources/360Controller_info.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection160"Compile /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources/360Controller_info.cd3fa0fd344a0b441^c2a64ad344a0b441^---0#0#0#-19%DVTDocumentLocation2@168"file://localhost/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources/360Controller_info.c0000000000000000^1762"CompileC build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/360Controller_info.o build/360Controller.build/Deployment/360Controller.build/DerivedSources/360Controller_info.c normal i386 c com.apple.compilers.llvmgcc42    cd /Users/asarazan/Downloads/360ControllerSource/360Controller    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -force_cpusubtype_ALL -msoft-float -Os -fno-common -mkernel -finline -fno-keep-inline-functions -Wreturn-type -Wunused-variable -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.2 -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/360Controller.hmap -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources/i386 -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources -F/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment -c /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources/360Controller_info.c -o /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/360Controller_info.o36"0107BFB9-4342-4CAA-B0D5-59F0C67C00ED-
+
+CCompileC build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/ChatPad.o /Users/asarazan/Downloads/360ControllerSource/360Controller/ChatPad.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s346047699.025423
+e346047700.120290
+r1
+xCompileC
+xbuild/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/ChatPad.o
+x/Users/asarazan/Downloads/360ControllerSource/360Controller/ChatPad.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/asarazan/Downloads/360ControllerSource/360Controller/ChatPad.cpp38be06d344a0b441^52d71ed444a0b441^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/asarazan/Downloads/360ControllerSource/360Controller/ChatPad.cpp0000000000000000^1633"CompileC build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/ChatPad.o ChatPad.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/asarazan/Downloads/360ControllerSource/360Controller    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fno-exceptions -fno-rtti -fcheck-new -force_cpusubtype_ALL -msoft-float -Os -fno-common -mkernel -finline -fno-keep-inline-functions -Wreturn-type -Wunused-variable -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -fapple-kext -fasm-blocks -mmacosx-version-min=10.2 -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/360Controller.hmap -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources/i386 -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources -F/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment -c /Users/asarazan/Downloads/360ControllerSource/360Controller/ChatPad.cpp -o /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/ChatPad.o36"E4F0949C-31AB-4C5A-AC0D-7744BF54ABD7-
+
+CCompileC build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/Controller.o /Users/asarazan/Downloads/360ControllerSource/360Controller/Controller.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s346047699.024949
+e346047700.147409
+r1
+xCompileC
+xbuild/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/Controller.o
+x/Users/asarazan/Downloads/360ControllerSource/360Controller/Controller.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/asarazan/Downloads/360ControllerSource/360Controller/Controller.cppf2b206d344a0b441^a8c425d444a0b441^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/asarazan/Downloads/360ControllerSource/360Controller/Controller.cpp0000000000000000^1645"CompileC build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/Controller.o Controller.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/asarazan/Downloads/360ControllerSource/360Controller    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fno-exceptions -fno-rtti -fcheck-new -force_cpusubtype_ALL -msoft-float -Os -fno-common -mkernel -finline -fno-keep-inline-functions -Wreturn-type -Wunused-variable -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -fapple-kext -fasm-blocks -mmacosx-version-min=10.2 -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/360Controller.hmap -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources/i386 -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources -F/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment -c /Users/asarazan/Downloads/360ControllerSource/360Controller/Controller.cpp -o /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/Controller.o36"73DC8AC6-DA2C-4D0D-8704-BCBDFB5FB321-
+
+CCompileC build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/_60Controller.o /Users/asarazan/Downloads/360ControllerSource/360Controller/_60Controller.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s346047699.024991
+e346047700.248973
+r1
+xCompileC
+xbuild/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/_60Controller.o
+x/Users/asarazan/Downloads/360ControllerSource/360Controller/_60Controller.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/asarazan/Downloads/360ControllerSource/360Controller/_60Controller.cppecda06d344a0b441^3cbc3fd444a0b441^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/asarazan/Downloads/360ControllerSource/360Controller/_60Controller.cpp0000000000000000^1657"CompileC build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/_60Controller.o _60Controller.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/asarazan/Downloads/360ControllerSource/360Controller    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fno-exceptions -fno-rtti -fcheck-new -force_cpusubtype_ALL -msoft-float -Os -fno-common -mkernel -finline -fno-keep-inline-functions -Wreturn-type -Wunused-variable -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -fapple-kext -fasm-blocks -mmacosx-version-min=10.2 -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/360Controller.hmap -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources/i386 -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources -F/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment -c /Users/asarazan/Downloads/360ControllerSource/360Controller/_60Controller.cpp -o /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/_60Controller.o36"371D12AE-9FA9-4B8A-B3B8-A38ADC5AE7DA-
+
+CCompileC build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/chatpadkeys.o /Users/asarazan/Downloads/360ControllerSource/360Controller/chatpadkeys.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s346047699.025620
+e346047699.060657
+r1
+xCompileC
+xbuild/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/chatpadkeys.o
+x/Users/asarazan/Downloads/360ControllerSource/360Controller/chatpadkeys.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/asarazan/Downloads/360ControllerSource/360Controller/chatpadkeys.cpp1ec406d344a0b441^9c870fd344a0b441^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/asarazan/Downloads/360ControllerSource/360Controller/chatpadkeys.cpp0000000000000000^1649"CompileC build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/chatpadkeys.o chatpadkeys.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/asarazan/Downloads/360ControllerSource/360Controller    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fno-exceptions -fno-rtti -fcheck-new -force_cpusubtype_ALL -msoft-float -Os -fno-common -mkernel -finline -fno-keep-inline-functions -Wreturn-type -Wunused-variable -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -fapple-kext -fasm-blocks -mmacosx-version-min=10.2 -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/360Controller.hmap -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources/i386 -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources -F/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment -c /Users/asarazan/Downloads/360ControllerSource/360Controller/chatpadkeys.cpp -o /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/chatpadkeys.o36"3133B649-F6D2-4729-BB8F-CA140C80E548-
+
+CCompileC build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/360Controller_info.o /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources/360Controller_info.c normal x86_64 c com.apple.compilers.llvmgcc42
+s346047700.278134
+e346047700.317473
+r1
+xCompileC
+xbuild/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/360Controller_info.o
+x/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources/360Controller_info.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection160"Compile /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources/360Controller_info.c115647d444a0b441^314551d444a0b441^---0#0#0#-19%DVTDocumentLocation2@168"file://localhost/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources/360Controller_info.c0000000000000000^1772"CompileC build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/360Controller_info.o build/360Controller.build/Deployment/360Controller.build/DerivedSources/360Controller_info.c normal x86_64 c com.apple.compilers.llvmgcc42    cd /Users/asarazan/Downloads/360ControllerSource/360Controller    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -force_cpusubtype_ALL -msoft-float -Os -fno-common -mkernel -finline -fno-keep-inline-functions -Wreturn-type -Wunused-variable -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.2 -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/360Controller.hmap -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources/x86_64 -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources -F/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment -c /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources/360Controller_info.c -o /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/360Controller_info.o36"F128E486-4633-4340-938E-FA594C063D85-
+
+CCompileC build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/ChatPad.o /Users/asarazan/Downloads/360ControllerSource/360Controller/ChatPad.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s346047700.148865
+e346047700.501433
+r1
+xCompileC
+xbuild/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/ChatPad.o
+x/Users/asarazan/Downloads/360ControllerSource/360Controller/ChatPad.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/asarazan/Downloads/360ControllerSource/360Controller/ChatPad.cpp793f26d444a0b441^965d80d444a0b441^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/asarazan/Downloads/360ControllerSource/360Controller/ChatPad.cpp0000000000000000^1643"CompileC build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/ChatPad.o ChatPad.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/asarazan/Downloads/360ControllerSource/360Controller    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fno-exceptions -fno-rtti -fcheck-new -force_cpusubtype_ALL -msoft-float -Os -fno-common -mkernel -finline -fno-keep-inline-functions -Wreturn-type -Wunused-variable -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -fapple-kext -fasm-blocks -mmacosx-version-min=10.2 -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/360Controller.hmap -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources/x86_64 -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources -F/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment -c /Users/asarazan/Downloads/360ControllerSource/360Controller/ChatPad.cpp -o /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/ChatPad.o36"968AD1DB-0076-4E2F-BC23-61BBC77DF232-
+
+CCompileC build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/Controller.o /Users/asarazan/Downloads/360ControllerSource/360Controller/Controller.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s346047700.121638
+e346047700.512683
+r1
+xCompileC
+xbuild/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/Controller.o
+x/Users/asarazan/Downloads/360ControllerSource/360Controller/Controller.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/asarazan/Downloads/360ControllerSource/360Controller/Controller.cpp0a481fd444a0b441^853f83d444a0b441^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/asarazan/Downloads/360ControllerSource/360Controller/Controller.cpp0000000000000000^1655"CompileC build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/Controller.o Controller.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/asarazan/Downloads/360ControllerSource/360Controller    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fno-exceptions -fno-rtti -fcheck-new -force_cpusubtype_ALL -msoft-float -Os -fno-common -mkernel -finline -fno-keep-inline-functions -Wreturn-type -Wunused-variable -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -fapple-kext -fasm-blocks -mmacosx-version-min=10.2 -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/360Controller.hmap -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources/x86_64 -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources -F/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment -c /Users/asarazan/Downloads/360ControllerSource/360Controller/Controller.cpp -o /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/Controller.o36"E7A98D28-D44D-4F86-A44B-C76503C84B51-
+
+CCompileC build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/_60Controller.o /Users/asarazan/Downloads/360ControllerSource/360Controller/_60Controller.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s346047699.292927
+e346047700.255994
+r1
+xCompileC
+xbuild/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/_60Controller.o
+x/Users/asarazan/Downloads/360ControllerSource/360Controller/_60Controller.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/asarazan/Downloads/360ControllerSource/360Controller/_60Controller.cpp8a1f4bd344a0b441^b18841d444a0b441^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/asarazan/Downloads/360ControllerSource/360Controller/_60Controller.cpp0000000000000000^1667"CompileC build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/_60Controller.o _60Controller.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/asarazan/Downloads/360ControllerSource/360Controller    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fno-exceptions -fno-rtti -fcheck-new -force_cpusubtype_ALL -msoft-float -Os -fno-common -mkernel -finline -fno-keep-inline-functions -Wreturn-type -Wunused-variable -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -fapple-kext -fasm-blocks -mmacosx-version-min=10.2 -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/360Controller.hmap -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources/x86_64 -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources -F/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment -c /Users/asarazan/Downloads/360ControllerSource/360Controller/_60Controller.cpp -o /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/_60Controller.o36"A754DC79-176F-45BB-B39D-BA8300823ADE-
+
+CCompileC build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/chatpadkeys.o /Users/asarazan/Downloads/360ControllerSource/360Controller/chatpadkeys.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s346047700.250273
+e346047700.276819
+r1
+xCompileC
+xbuild/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/chatpadkeys.o
+x/Users/asarazan/Downloads/360ControllerSource/360Controller/chatpadkeys.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/asarazan/Downloads/360ControllerSource/360Controller/chatpadkeys.cpp373540d444a0b441^59dd46d444a0b441^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/asarazan/Downloads/360ControllerSource/360Controller/chatpadkeys.cpp0000000000000000^1659"CompileC build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/chatpadkeys.o chatpadkeys.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/asarazan/Downloads/360ControllerSource/360Controller    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fno-exceptions -fno-rtti -fcheck-new -force_cpusubtype_ALL -msoft-float -Os -fno-common -mkernel -finline -fno-keep-inline-functions -Wreturn-type -Wunused-variable -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -fapple-kext -fasm-blocks -mmacosx-version-min=10.2 -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/360Controller.hmap -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources/x86_64 -I/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources -F/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment -c /Users/asarazan/Downloads/360ControllerSource/360Controller/chatpadkeys.cpp -o /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/chatpadkeys.o36"AB137A19-DFD3-482E-9015-3ABF66025D64-
+
+CCopyStringsFile /Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/360Controller.kext/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s346047699.011300
+e346047699.016487
+r1
+xCopyStringsFile
+x/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/360Controller.kext/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy English.lproj/InfoPlist.strings2c0e03d344a0b441^d63704d344a0b441^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/asarazan/Downloads/360ControllerSource/360Controller/English.lproj/InfoPlist.strings0000000000000000^457"CopyStringsFile build/Deployment/360Controller.kext/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings    cd /Users/asarazan/Downloads/360ControllerSource/360Controller    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/360Controller.kext/Contents/Resources/English.lproj -- English.lproj/InfoPlist.strings36"6261ED0D-9742-4CF9-8B0A-A0DC114A3745-
+
+CCreateUniversalBinary /Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/360Controller.kext/Contents/MacOS/360Controller normal "i386 x86_64"
+s346047700.561409
+e346047700.576995
+r1
+xCreateUniversalBinary
+x/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/360Controller.kext/Contents/MacOS/360Controller
+xnormal
+xi386 x86_64
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection148"Create universal binary /Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/360Controller.kext/Contents/MacOS/360Controller4aef8fd444a0b441^4ab593d444a0b441^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/360Controller.kext/Contents/MacOS/360Controller00f4b8c9deffdf42^638"CreateUniversalBinary build/Deployment/360Controller.kext/Contents/MacOS/360Controller normal "i386 x86_64"    cd /Users/asarazan/Downloads/360ControllerSource/360Controller    /usr/bin/lipo -create /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/360Controller /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/360Controller -output /Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/360Controller.kext/Contents/MacOS/360Controller36"8CAE0EAB-BE0B-416C-A20E-1EEFF636E0D7-
+
+CLd /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/360Controller normal i386
+s346047700.257300
+e346047700.422933
+r1
+xLd
+x/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/360Controller
+xnormal
+xi386
+old: warning: using ld_classic
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection155"Link /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/360Controllerd20042d444a0b441^e1446cd444a0b441^-30"ld: warning: using ld_classic1(21%IDEActivityLogMessage2@16"Using ld_classic-346047700#0#30#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--1035"Ld build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/360Controller normal i386    cd /Users/asarazan/Downloads/360ControllerSource/360Controller    setenv MACOSX_DEPLOYMENT_TARGET 10.2    /Developer/usr/bin/llvm-g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment -F/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment -filelist /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/360Controller.LinkFileList -mmacosx-version-min=10.2 -lcpp_kext -Xlinker -kext -nostdlib -lkmodc++ /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/360Controller_info.o -lkmod -lcc_kext -o /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/360Controller36"D065D33E-BD8A-4BC5-A9EF-2059C6A04ABF-
+
+CLd /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/360Controller normal x86_64
+s346047700.520609
+e346047700.553636
+r1
+xLd
+x/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/360Controller
+xnormal
+xx86_64
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection157"Link /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/360Controller4f7485d444a0b441^f1bb8dd444a0b441^---0#0#0#--1047"Ld build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/360Controller normal x86_64    cd /Users/asarazan/Downloads/360ControllerSource/360Controller    setenv MACOSX_DEPLOYMENT_TARGET 10.2    /Developer/usr/bin/llvm-g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment -F/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment -filelist /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/360Controller.LinkFileList -mmacosx-version-min=10.2 -lcpp_kext -Xlinker -kext -nostdlib -lkmodc++ /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/360Controller_info.o -lkmod -lcc_kext -o /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/360Controller36"ADB11CAE-F9D2-415D-80D5-CA9A83455468-
+
+CPhaseScriptExecution "Run Script" /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Script-3B0F12A1097B3A3A00127827.sh
+s346047730.898978
+e346047730.940459
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Script-3B0F12A1097B3A3A00127827.sh
+o/Users/asarazan/Downloads/360ControllerSource/360Controller/../Feedback360/build/Deployment/Feedback360.bundle
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'f20be7f244a0b441^80d6f0f244a0b441^-111"/Users/asarazan/Downloads/360ControllerSource/360Controller/../Feedback360/build/Deployment/Feedback360.bundle1(21%IDEActivityLogMessage2@111"/Users/asarazan/Downloads/360ControllerSource/360Controller/../Feedback360/build/Deployment/Feedback360.bundle-346047730#0#111#-0#-----0#0#0#--19816"PhaseScriptExecution "Run Script" build/360Controller.build/Deployment/360Controller.build/Script-3B0F12A1097B3A3A00127827.sh    cd /Users/asarazan/Downloads/360ControllerSource/360Controller    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER asarazan    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS "i386 x86_64"    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386"    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/asarazan/Downloads/360ControllerSource/360Controller/build    setenv BUILD_ROOT /Users/asarazan/Downloads/360ControllerSource/360Controller/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment    setenv CACHE_ROOT /var/folders/st/h2p10xw13md8fqj50pwr07z00000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/st/h2p10xw13md8fqj50pwr07z00000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/360Controller.kext    setenv CODE_SIGNING_ALLOWED YES    setenv COMBINE_HIDPI_IMAGES NO    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/st/h2p10xw13md8fqj50pwr07z00000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Deployment    setenv CONFIGURATION_BUILD_DIR /Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment    setenv CONFIGURATION_TEMP_DIR /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment    setenv CONTENTS_FOLDER_PATH 360Controller.kext/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH x86_64    setenv CURRENT_PROJECT_VERSION 1.0.0d1    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH 360Controller.kext/Contents/Resources/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/360Controller.dst    setenv DWARF_DSYM_FILE_NAME 360Controller.kext.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment    setenv EMBEDDED_PROFILE_NAME embedded.provisionprofile    setenv ENABLE_APPLE_KEXT_CODE_GENERATION YES    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH 360Controller.kext/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH 360Controller.kext/Contents/MacOS    setenv EXECUTABLE_NAME 360Controller    setenv EXECUTABLE_PATH 360Controller.kext/Contents/MacOS/360Controller    setenv FILE_LIST /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH 360Controller.kext/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME 360Controller.kext    setenv GCC3_VERSION 3.3    setenv GCC_CHECK_RETURN_VALUE_OF_OPERATOR_NEW YES    setenv GCC_DISABLE_STATIC_FUNCTION_INLINING YES    setenv GCC_ENABLE_BUILTIN_FUNCTIONS NO    setenv GCC_ENABLE_CPP_EXCEPTIONS NO    setenv GCC_ENABLE_CPP_RTTI NO    setenv GCC_ENABLE_FIX_AND_CONTINUE NO    setenv GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS YES    setenv GCC_ENABLE_FUNCTION_INLINING YES    setenv GCC_ENABLE_KERNEL_DEVELOPMENT YES    setenv GCC_ENABLE_PASCAL_STRINGS NO    setenv GCC_FORCE_CPU_SUBTYPE_ALL YES    setenv GCC_GENERATE_DEBUGGING_SYMBOLS NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN NO    setenv GCC_MODEL_TUNING G5    setenv GCC_NO_COMMON_BLOCKS YES    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRODUCT_TYPE_PREPROCESSOR_DEFINITIONS " KERNEL KERNEL_PRIVATE DRIVER_PRIVATE APPLE NeXT"    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_USE_STANDARD_INCLUDE_SEARCHING NO    setenv GCC_VERSION com.apple.compilers.llvmgcc42    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH 360Controller.kext/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH 360Controller.kext/Contents/Resources/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/360Controller.dst/System/Library/Extensions    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER asarazan    setenv INSTALL_PATH /System/Library/Extensions    setenv INSTALL_ROOT /tmp/360Controller.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH 360Controller.kext/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv KERNEL_EXTENSION_HEADER_SEARCH_PATHS "/System/Library/Frameworks/Kernel.framework/PrivateHeaders /System/Library/Frameworks/Kernel.framework/Headers"    setenv KERNEL_FRAMEWORK /System/Library/Frameworks/Kernel.framework    setenv KERNEL_FRAMEWORK_HEADERS /System/Library/Frameworks/Kernel.framework/Headers    setenv KEXT_FAMILY_NAME family    setenv KEXT_FRAMEWORK /System/Library/Frameworks/Kernel.framework    setenv KEXT_FRAMEWORK_NAME Kernel    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/360Controller-LinkMap-normal-x86_64.txt    setenv LD_NO_PIE NO    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEGACY_DEVELOPER_DIR /Developer/Library/Xcode/PrivatePlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/i386/360Controller.LinkFileList    setenv LINK_FILE_LIST_normal_x86_64 /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal/x86_64/360Controller.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH 360Controller.kext/Contents/Resources/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.2    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 11C74    setenv MAC_OS_X_VERSION_ACTUAL 1072    setenv MAC_OS_X_VERSION_MAJOR 1070    setenv MAC_OS_X_VERSION_MINOR 0702    setenv MODULE_NAME com.mice.driver.Xbox360Controller    setenv MODULE_START 0    setenv MODULE_STOP 0    setenv MODULE_VERSION 1.0.0d1    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Objects-normal    setenv OBJROOT /Users/asarazan/Downloads/360ControllerSource/360Controller/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv PACKAGE_TYPE com.apple.package-type.wrapper.kernel-extension    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH 360Controller.kext/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS c++    setenv PKGINFO_FILE_PATH /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/PkgInfo    setenv PKGINFO_PATH 360Controller.kext/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/MacOSX.platform    setenv PLATFORM_NAME macosx    setenv PLATFORM_PREFERRED_ARCH x86_64    setenv PLATFORM_PRODUCT_BUILD_VERSION 4D139    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH 360Controller.kext/Contents/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH /System/Library/Frameworks/Kernel.framework/Contents/PrivateHeaders/family    setenv PRODUCT_NAME 360Controller    setenv PRODUCT_SETTINGS_PATH /Users/asarazan/Downloads/360ControllerSource/360Controller/Info.plist    setenv PRODUCT_SPECIFIC_LDFLAGS -lcpp_kext    setenv PRODUCT_TYPE com.apple.product-type.kernel-extension.iokit    setenv PRODUCT_TYPE_HEADER_SEARCH_PATHS "/System/Library/Frameworks/Kernel.framework/PrivateHeaders /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers"    setenv PROFILING_CODE NO    setenv PROJECT 360Controller    setenv PROJECT_DERIVED_FILE_DIR /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/DerivedSources    setenv PROJECT_DIR /Users/asarazan/Downloads/360ControllerSource/360Controller    setenv PROJECT_FILE_PATH /Users/asarazan/Downloads/360ControllerSource/360Controller/360Controller.xcodeproj    setenv PROJECT_NAME 360Controller    setenv PROJECT_TEMP_DIR /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build    setenv PUBLIC_HEADERS_FOLDER_PATH /System/Library/Frameworks/Kernel.framework/Contents/Headers/family    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH 360Controller.kext/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/SDKs/MacOSX10.6.sdk    setenv SDK_DIR /Developer/SDKs/MacOSX10.6.sdk    setenv SDK_NAME macosx10.6    setenv SDK_PRODUCT_BUILD_VERSION 10J567    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH 360Controller.kext/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/st/h2p10xw13md8fqj50pwr07z00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH 360Controller.kext/Contents/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/asarazan/Downloads/360ControllerSource/360Controller    setenv SRCROOT /Users/asarazan/Downloads/360ControllerSource/360Controller    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE debugging    setenv SUPPORTED_PLATFORMS macosx    setenv SYMROOT /Users/asarazan/Downloads/360ControllerSource/360Controller/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME 360Controller    setenv TARGET_BUILD_DIR /Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment    setenv TARGET_NAME 360Controller    setenv TARGET_TEMP_DIR /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build    setenv TEMP_DIR /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build    setenv TEMP_FILES_DIR /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build    setenv TEMP_FILE_DIR /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build    setenv TEMP_ROOT /Users/asarazan/Downloads/360ControllerSource/360Controller/build    setenv TEST_AFTER_BUILD YES    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH 360Controller.kext/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER asarazan    setenv USER_APPS_DIR /Users/asarazan/Applications    setenv USER_LIBRARY_DIR /Users/asarazan/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH 360Controller.kext/Contents/version.plist    setenv VERSION_INFO_BUILDER asarazan    setenv VERSION_INFO_FILE 360Controller_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:360Controller  PROJECT:360Controller-1.0.0d1\""    setenv WRAPPER_EXTENSION kext    setenv WRAPPER_NAME 360Controller.kext    setenv WRAPPER_SUFFIX .kext    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4D139    setenv XCODE_VERSION_ACTUAL 0420    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0420    setenv YACC /Developer/usr/bin/yacc    setenv ZERO_LINK NO    /bin/sh -c /Users/asarazan/Downloads/360ControllerSource/360Controller/build/360Controller.build/Deployment/360Controller.build/Script-3B0F12A1097B3A3A00127827.sh36"BBFFD827-4F70-4799-B316-469C3188B2E4-
+
+CProcessInfoPlistFile /Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/360Controller.kext/Contents/Info.plist Info.plist
+s346047698.997357
+e346047699.002084
+r1
+xProcessInfoPlistFile
+x/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/360Controller.kext/Contents/Info.plist
+xInfo.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist946affd244a0b441^fd8700d344a0b441^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/asarazan/Downloads/360ControllerSource/360Controller/Info.plist0000000000000000^352"ProcessInfoPlistFile build/Deployment/360Controller.kext/Contents/Info.plist Info.plist    cd /Users/asarazan/Downloads/360ControllerSource/360Controller    builtin-infoPlistUtility Info.plist -expandbuildsettings -platform macosx -o /Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/360Controller.kext/Contents/Info.plist36"B90E468E-985D-42E3-A09F-79D19C57715B-
+
+CTouch /Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/360Controller.kext
+s346047700.643454
+e346047700.647948
+r1
+xTouch
+x/Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/360Controller.kext
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Touch /Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/360Controller.kext04c8a4d444a0b441^50e0a5d444a0b441^---0#0#0#--227"Touch build/Deployment/360Controller.kext    cd /Users/asarazan/Downloads/360ControllerSource/360Controller    /usr/bin/touch -c /Users/asarazan/Downloads/360ControllerSource/360Controller/build/Deployment/360Controller.kext36"C9C46335-7279-4E80-A580-A1D4AB3C099D-
+

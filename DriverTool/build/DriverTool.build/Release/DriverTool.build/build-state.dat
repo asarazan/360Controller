@@ -1,0 +1,181 @@
+TDriverTool
+v4
+r1
+cCheck dependencies
+cProcessPCH /var/folders/st/h2p10xw13md8fqj50pwr07z00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DriverTool_Prefix-aepnafkdywuffcdbwjlicxlnylxz/DriverTool_Prefix.pch.gch DriverTool_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvmgcc42
+cProcessPCH /var/folders/st/h2p10xw13md8fqj50pwr07z00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DriverTool_Prefix-cnsidtllqhsdqtcwaotjlvsqziqv/DriverTool_Prefix.pch.gch DriverTool_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/DriverTool.build/Release/DriverTool.build/Objects-normal/i386/DriverTool.o /Users/asarazan/Downloads/360ControllerSource/DriverTool/DriverTool.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/DriverTool.build/Release/DriverTool.build/Objects-normal/x86_64/DriverTool.o /Users/asarazan/Downloads/360ControllerSource/DriverTool/DriverTool.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/Objects-normal/i386/DriverTool normal i386
+cLd /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/Objects-normal/x86_64/DriverTool normal x86_64
+cCreateUniversalBinary /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release/DriverTool normal "x86_64 i386"
+cGenerateDSYMFile /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release/DriverTool.dSYM /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release/DriverTool
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004E34501C00000000000000EE
+t1312051228
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C23AA0400000000000013E6
+t1277405700
+s5094
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E8D7F560000000000942480
+t1317896022
+s9708672
+
+N/Users/asarazan/Downloads/360ControllerSource/DriverTool/DriverTool.m
+c000000004DCCFDA60000000000001852
+t1305279910
+s6226
+i<Foundation/Foundation.h>
+
+N/Users/asarazan/Downloads/360ControllerSource/DriverTool/DriverTool_Prefix.pch
+c000000004DC762CC00000000000000A2
+t1304912588
+s162
+i<Foundation/Foundation.h>
+
+N/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/Objects-normal/i386/DriverTool
+t1324354859
+s18396
+
+N/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/Objects-normal/i386/DriverTool.LinkFileList
+c000000004EF00D28000000000000008A
+t1324354856
+s138
+
+N/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/Objects-normal/i386/DriverTool.o
+t1324354859
+s15132
+
+N/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/Objects-normal/x86_64/DriverTool
+t1324354859
+s14856
+
+N/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/Objects-normal/x86_64/DriverTool.LinkFileList
+c000000004EF00D28000000000000008C
+t1324354856
+s140
+
+N/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/Objects-normal/x86_64/DriverTool.o
+t1324354859
+s17976
+
+N/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release/DriverTool
+t1324354859
+s38876
+
+N/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release/DriverTool.dSYM
+t1324354859
+s102
+
+N/var/folders/st/h2p10xw13md8fqj50pwr07z00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DriverTool_Prefix-aepnafkdywuffcdbwjlicxlnylxz/DriverTool_Prefix.pch.gch
+t1324354858
+s29207344
+
+N/var/folders/st/h2p10xw13md8fqj50pwr07z00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DriverTool_Prefix-cnsidtllqhsdqtcwaotjlvsqziqv/DriverTool_Prefix.pch.gch
+t1324354858
+s30751568
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd33127f244a0b441^842942f244a0b441^---0#1#0#--18"Check dependencies36"580A8312-134C-467E-B4EE-1FB05B3B2B93-
+
+CCompileC build/DriverTool.build/Release/DriverTool.build/Objects-normal/i386/DriverTool.o /Users/asarazan/Downloads/360ControllerSource/DriverTool/DriverTool.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s346047659.128123
+e346047659.400875
+r1
+xCompileC
+xbuild/DriverTool.build/Release/DriverTool.build/Objects-normal/i386/DriverTool.o
+x/Users/asarazan/Downloads/360ControllerSource/DriverTool/DriverTool.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/asarazan/Downloads/360ControllerSource/DriverTool/DriverTool.m180521ab44a0b441^77a066ab44a0b441^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/asarazan/Downloads/360ControllerSource/DriverTool/DriverTool.m0000000000000000^1891"CompileC build/DriverTool.build/Release/DriverTool.build/Objects-normal/i386/DriverTool.o DriverTool.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/asarazan/Downloads/360ControllerSource/DriverTool    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/DriverTool-generated-files.hmap -I/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/DriverTool-own-target-headers.hmap -I/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/DriverTool-all-target-headers.hmap -iquote /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/DriverTool-project-headers.hmap -I/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release/include -I/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/DerivedSources/i386 -I/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/DerivedSources -F/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release -include /var/folders/st/h2p10xw13md8fqj50pwr07z00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DriverTool_Prefix-cnsidtllqhsdqtcwaotjlvsqziqv/DriverTool_Prefix.pch -c /Users/asarazan/Downloads/360ControllerSource/DriverTool/DriverTool.m -o /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/Objects-normal/i386/DriverTool.o36"B2759422-2B93-4DF8-AE93-61EB5F716139-
+
+CCompileC build/DriverTool.build/Release/DriverTool.build/Objects-normal/x86_64/DriverTool.o /Users/asarazan/Downloads/360ControllerSource/DriverTool/DriverTool.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s346047659.315181
+e346047659.442394
+r1
+xCompileC
+xbuild/DriverTool.build/Release/DriverTool.build/Objects-normal/x86_64/DriverTool.o
+x/Users/asarazan/Downloads/360ControllerSource/DriverTool/DriverTool.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/asarazan/Downloads/360ControllerSource/DriverTool/DriverTool.mf8c650ab44a0b441^894071ab44a0b441^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/asarazan/Downloads/360ControllerSource/DriverTool/DriverTool.m0000000000000000^1901"CompileC build/DriverTool.build/Release/DriverTool.build/Objects-normal/x86_64/DriverTool.o DriverTool.m normal x86_64 objective-c com.apple.compilers.llvmgcc42    cd /Users/asarazan/Downloads/360ControllerSource/DriverTool    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/DriverTool-generated-files.hmap -I/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/DriverTool-own-target-headers.hmap -I/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/DriverTool-all-target-headers.hmap -iquote /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/DriverTool-project-headers.hmap -I/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release/include -I/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/DerivedSources/x86_64 -I/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/DerivedSources -F/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release -include /var/folders/st/h2p10xw13md8fqj50pwr07z00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DriverTool_Prefix-aepnafkdywuffcdbwjlicxlnylxz/DriverTool_Prefix.pch -c /Users/asarazan/Downloads/360ControllerSource/DriverTool/DriverTool.m -o /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/Objects-normal/x86_64/DriverTool.o36"A31E52FC-5F14-48BD-9A8C-426861736ABF-
+
+CCreateUniversalBinary /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release/DriverTool normal "x86_64 i386"
+s346047659.625291
+e346047659.631288
+r1
+xCreateUniversalBinary
+x/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release/DriverTool
+xnormal
+xx86_64 i386
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Create universal binary /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release/DriverTool1c24a0ab44a0b441^289ca1ab44a0b441^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release/DriverTool00f4b8c9deffdf42^522"CreateUniversalBinary build/Release/DriverTool normal "x86_64 i386"    cd /Users/asarazan/Downloads/360ControllerSource/DriverTool    /usr/bin/lipo -create /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/Objects-normal/x86_64/DriverTool /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/Objects-normal/i386/DriverTool -output /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release/DriverTool36"B0642122-3C3B-4750-8942-4C2D0037A8A1-
+
+CGenerateDSYMFile /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release/DriverTool.dSYM /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release/DriverTool
+s346047659.638179
+e346047659.760120
+r1
+xGenerateDSYMFile
+x/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release/DriverTool.dSYM
+x/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release/DriverTool
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Generating /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release/DriverTool.dSYM4371a3ab44a0b441^2498c2ab44a0b441^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release/DriverTool.dSYM00f4b8c9deffdf42^340"GenerateDSYMFile build/Release/DriverTool.dSYM build/Release/DriverTool    cd /Users/asarazan/Downloads/360ControllerSource/DriverTool    /Developer/usr/bin/dsymutil /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release/DriverTool -o /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release/DriverTool.dSYM36"B2A079ED-D550-4367-971D-C3A0A871EC2E-
+
+CLd /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/Objects-normal/i386/DriverTool normal i386
+s346047659.407637
+e346047659.617523
+r1
+xLd
+x/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/Objects-normal/i386/DriverTool
+xnormal
+xi386
+old: warning: directory not found for option '-L/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release'
+old: warning: directory not found for option '-F/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release'
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Link /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/Objects-normal/i386/DriverToolf77568ab44a0b441^2e1e9eab44a0b441^-238"ld: warning: directory not found for option '-L/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release'ld: warning: directory not found for option '-F/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release'2(21%IDEActivityLogMessage2@105"Directory not found for option '-L/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release'-346047659#0#119#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@105"Directory not found for option '-F/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release'-346047659#119#119#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--779"Ld build/DriverTool.build/Release/DriverTool.build/Objects-normal/i386/DriverTool normal i386    cd /Users/asarazan/Downloads/360ControllerSource/DriverTool    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release -F/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release -filelist /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/Objects-normal/i386/DriverTool.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -o /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/Objects-normal/i386/DriverTool36"EF6C0B39-3C54-4F1D-A333-C6E5B9FE3B93-
+
+CLd /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/Objects-normal/x86_64/DriverTool normal x86_64
+s346047659.449221
+e346047659.617508
+r1
+xLd
+x/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/Objects-normal/x86_64/DriverTool
+xnormal
+xx86_64
+old: warning: directory not found for option '-L/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release'
+old: warning: directory not found for option '-F/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release'
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection142"Link /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/Objects-normal/x86_64/DriverTool6a1373ab44a0b441^b5169eab44a0b441^-238"ld: warning: directory not found for option '-L/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release'ld: warning: directory not found for option '-F/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release'2(21%IDEActivityLogMessage2@105"Directory not found for option '-L/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release'-346047659#0#119#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@105"Directory not found for option '-F/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release'-346047659#119#119#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--789"Ld build/DriverTool.build/Release/DriverTool.build/Objects-normal/x86_64/DriverTool normal x86_64    cd /Users/asarazan/Downloads/360ControllerSource/DriverTool    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/llvm-gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release -F/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release -filelist /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/Objects-normal/x86_64/DriverTool.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -o /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/Objects-normal/x86_64/DriverTool36"58997F26-E96C-4777-8402-F87B6BE9695B-
+
+CProcessPCH /var/folders/st/h2p10xw13md8fqj50pwr07z00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DriverTool_Prefix-aepnafkdywuffcdbwjlicxlnylxz/DriverTool_Prefix.pch.gch DriverTool_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s346047656.808732
+e346047659.307598
+r1
+xProcessPCH
+x/var/folders/st/h2p10xw13md8fqj50pwr07z00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DriverTool_Prefix-aepnafkdywuffcdbwjlicxlnylxz/DriverTool_Prefix.pch.gch
+xDriverTool_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Precompile DriverTool_Prefix.pch3832cfa844a0b441^d3bd4eab44a0b441^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/asarazan/Downloads/360ControllerSource/DriverTool/DriverTool_Prefix.pch0000000000000000^1867"ProcessPCH /var/folders/st/h2p10xw13md8fqj50pwr07z00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DriverTool_Prefix-aepnafkdywuffcdbwjlicxlnylxz/DriverTool_Prefix.pch.gch DriverTool_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvmgcc42    cd /Users/asarazan/Downloads/360ControllerSource/DriverTool    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/DriverTool-generated-files.hmap -I/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/DriverTool-own-target-headers.hmap -I/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/DriverTool-all-target-headers.hmap -iquote /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/DriverTool-project-headers.hmap -I/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release/include -I/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/DerivedSources/x86_64 -I/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/DerivedSources -F/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release -c /Users/asarazan/Downloads/360ControllerSource/DriverTool/DriverTool_Prefix.pch -o /var/folders/st/h2p10xw13md8fqj50pwr07z00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DriverTool_Prefix-aepnafkdywuffcdbwjlicxlnylxz/DriverTool_Prefix.pch.gch36"8C3D8149-D9F5-4B56-BEEB-B670CDC7EF74-
+
+CProcessPCH /var/folders/st/h2p10xw13md8fqj50pwr07z00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DriverTool_Prefix-cnsidtllqhsdqtcwaotjlvsqziqv/DriverTool_Prefix.pch.gch DriverTool_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s346047656.808733
+e346047659.119259
+r1
+xProcessPCH
+x/var/folders/st/h2p10xw13md8fqj50pwr07z00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DriverTool_Prefix-cnsidtllqhsdqtcwaotjlvsqziqv/DriverTool_Prefix.pch.gch
+xDriverTool_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Precompile DriverTool_Prefix.pch0532cfa844a0b441^37881eab44a0b441^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/asarazan/Downloads/360ControllerSource/DriverTool/DriverTool_Prefix.pch0000000000000000^1861"ProcessPCH /var/folders/st/h2p10xw13md8fqj50pwr07z00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DriverTool_Prefix-cnsidtllqhsdqtcwaotjlvsqziqv/DriverTool_Prefix.pch.gch DriverTool_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/asarazan/Downloads/360ControllerSource/DriverTool    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/DriverTool-generated-files.hmap -I/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/DriverTool-own-target-headers.hmap -I/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/DriverTool-all-target-headers.hmap -iquote /Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/DriverTool-project-headers.hmap -I/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release/include -I/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/DerivedSources/i386 -I/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/DriverTool.build/Release/DriverTool.build/DerivedSources -F/Users/asarazan/Downloads/360ControllerSource/DriverTool/build/Release -c /Users/asarazan/Downloads/360ControllerSource/DriverTool/DriverTool_Prefix.pch -o /var/folders/st/h2p10xw13md8fqj50pwr07z00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DriverTool_Prefix-cnsidtllqhsdqtcwaotjlvsqziqv/DriverTool_Prefix.pch.gch36"4B3A98D1-D28A-43F4-B3F7-92A7BF23DCD6-
+
