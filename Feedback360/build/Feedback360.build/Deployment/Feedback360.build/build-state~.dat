@@ -1,310 +1,0 @@
-TFeedback360
-v4
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment/Feedback360.bundle/Contents/Info.plist Info.plist
-cCopyStringsFile /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment/Feedback360.bundle/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-cCompileC build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/x86_64/main.o /Users/asarazan/Downloads/360ControllerSource/Feedback360/main.c normal x86_64 c com.apple.compilers.llvmgcc42
-cCompileC build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/x86_64/devlink.o /Users/asarazan/Downloads/360ControllerSource/Feedback360/devlink.c normal x86_64 c com.apple.compilers.llvmgcc42
-cCompileC build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/x86_64/emulator.o /Users/asarazan/Downloads/360ControllerSource/Feedback360/emulator.c normal x86_64 c com.apple.compilers.llvmgcc42
-cCompileC build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/i386/main.o /Users/asarazan/Downloads/360ControllerSource/Feedback360/main.c normal i386 c com.apple.compilers.llvmgcc42
-cCompileC build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/i386/emulator.o /Users/asarazan/Downloads/360ControllerSource/Feedback360/emulator.c normal i386 c com.apple.compilers.llvmgcc42
-cCompileC build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/i386/devlink.o /Users/asarazan/Downloads/360ControllerSource/Feedback360/devlink.c normal i386 c com.apple.compilers.llvmgcc42
-cLd /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/x86_64/Feedback360 normal x86_64
-cLd /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/i386/Feedback360 normal i386
-cCreateUniversalBinary /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment/Feedback360.bundle/Contents/MacOS/Feedback360 normal "x86_64 i386"
-cTouch /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment/Feedback360.bundle
-
-N/Developer/SDKs/MacOSX10.7.sdk
-c000000004E1106D400000000000000EE
-t1309738708
-s238
-
-N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
-c000000004DFA8BA400000000000005FE
-t1308265380
-s1534
-
-N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
-c000000004E0421F10000000000000B67
-t1308893681
-s2919
-
-N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/ForceFeedback.framework/Headers/IOForceFeedbackLib.h
-c000000004DF6A23000000000000071A0
-t1308009008
-s29088
-
-N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOCFPlugIn.h
-c000000004DFA7BD400000000000008FD
-t1308261332
-s2301
-
-N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/IOKit.framework/Headers/hid/IOHIDLib.h
-c000000004DFA7BD40000000000000609
-t1308261332
-s1545
-
-N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-c000000004E8D7E9B000000000060E710
-t1317895835
-s6350608
-
-N/System/Library/Frameworks/ForceFeedback.framework/ForceFeedback
-c000000004E26FEB200000000000102A0
-t1311178418
-s66208
-
-N/System/Library/Frameworks/IOKit.framework/IOKit
-c000000004EB6D935000000000011FDA0
-t1320606005
-s1179040
-
-N/Users/asarazan/Downloads/360ControllerSource/Feedback360/English.lproj/InfoPlist.strings
-c000000004B07C9DE0000000000000104
-t1258801630
-s260
-
-N/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment/Feedback360.bundle
-t2
-s0
-
-N/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment/Feedback360.bundle/Contents/Info.plist
-t2
-s0
-
-N/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment/Feedback360.bundle/Contents/MacOS/Feedback360
-t2
-s0
-
-N/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment/Feedback360.bundle/Contents/Resources/English.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/i386/Feedback360
-t2
-s0
-
-N/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/i386/Feedback360.LinkFileList
-c000000004EF00CDC00000000000001A5
-t1324354780
-s421
-
-N/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/i386/devlink.o
-t2
-s0
-
-N/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/i386/emulator.o
-t2
-s0
-
-N/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/i386/main.o
-t2
-s0
-
-N/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/x86_64/Feedback360
-t2
-s0
-
-N/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/x86_64/Feedback360.LinkFileList
-c000000004EF00CDC00000000000001AB
-t1324354780
-s427
-
-N/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/x86_64/devlink.o
-t2
-s0
-
-N/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/x86_64/emulator.o
-t2
-s0
-
-N/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/x86_64/main.o
-t2
-s0
-
-N/Users/asarazan/Downloads/360ControllerSource/Feedback360/devlink.c
-c000000004B07C9DE00000000000008C0
-t1258801630
-s2240
-i<IOKit/IOCFPlugin.h>
-i"devlink.h"
-
-N/Users/asarazan/Downloads/360ControllerSource/Feedback360/devlink.h
-c0000000044E6C372000000000000053E
-t1155974002
-s1342
-i<Carbon/Carbon.h>
-i<IOKit/hid/IOHIDLib.h>
-
-N/Users/asarazan/Downloads/360ControllerSource/Feedback360/emulator.c
-c0000000044E6C3720000000000002B6C
-t1155974002
-s11116
-i"emulator.h"
-
-N/Users/asarazan/Downloads/360ControllerSource/Feedback360/emulator.h
-c0000000044E6C3720000000000000DD7
-t1155974002
-s3543
-i<Carbon/Carbon.h>
-
-N/Users/asarazan/Downloads/360ControllerSource/Feedback360/main.c
-c000000004DC79FAE0000000000003DFF
-t1304928174
-s15871
-i<CoreFoundation/CoreFoundation.h>
-i"main.h"
-
-N/Users/asarazan/Downloads/360ControllerSource/Feedback360/main.h
-c0000000044E6C3720000000000000806
-t1155974002
-s2054
-i<ForceFeedback/IOForceFeedbackLib.h>
-i<IOKit/IOCFPlugin.h>
-i"emulator.h"
-i"devlink.h"
-
-NInfo.plist
-c0000000044E6C3720000000000000417
-t1155974002
-s1047
-
-CCheck dependencies
-r0
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies6b101e5b44a0b441^18227f5c44a0b441^---0#1#0#--18"Check dependencies36"CA6F0038-5E1B-458E-8B9A-CFFB5B6C504B-
-
-CCompileC build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/i386/devlink.o /Users/asarazan/Downloads/360ControllerSource/Feedback360/devlink.c normal i386 c com.apple.compilers.llvmgcc42
-s346047586.189232
-e346047586.700991
-r1
-xCompileC
-xbuild/Feedback360.build/Deployment/Feedback360.build/Objects-normal/i386/devlink.o
-x/Users/asarazan/Downloads/360ControllerSource/Feedback360/devlink.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvmgcc42
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/asarazan/Downloads/360ControllerSource/Feedback360/devlink.c5c91306244a0b441^1574b36244a0b441^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/asarazan/Downloads/360ControllerSource/Feedback360/devlink.c0000000000000000^1203"CompileC build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/i386/devlink.o devlink.c normal i386 c com.apple.compilers.llvmgcc42    cd /Users/asarazan/Downloads/360ControllerSource/Feedback360    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -I/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Feedback360.hmap -I/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment/include -I/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/DerivedSources/i386 -I/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/DerivedSources -F/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment -c /Users/asarazan/Downloads/360ControllerSource/Feedback360/devlink.c -o /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/i386/devlink.o36"7B1FB85F-68CA-4B7C-8536-3FE6DB875489-
-
-CCompileC build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/i386/emulator.o /Users/asarazan/Downloads/360ControllerSource/Feedback360/emulator.c normal i386 c com.apple.compilers.llvmgcc42
-s346047586.177924
-e346047586.708844
-r1
-xCompileC
-xbuild/Feedback360.build/Deployment/Feedback360.build/Objects-normal/i386/emulator.o
-x/Users/asarazan/Downloads/360ControllerSource/Feedback360/emulator.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvmgcc42
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/asarazan/Downloads/360ControllerSource/Feedback360/emulator.c0cae2d6244a0b441^8577b56244a0b441^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/asarazan/Downloads/360ControllerSource/Feedback360/emulator.c0000000000000000^1207"CompileC build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/i386/emulator.o emulator.c normal i386 c com.apple.compilers.llvmgcc42    cd /Users/asarazan/Downloads/360ControllerSource/Feedback360    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -I/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Feedback360.hmap -I/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment/include -I/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/DerivedSources/i386 -I/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/DerivedSources -F/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment -c /Users/asarazan/Downloads/360ControllerSource/Feedback360/emulator.c -o /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/i386/emulator.o36"3D77F322-9C5A-4903-B4DF-B1222161C1A2-
-
-CCompileC build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/i386/main.o /Users/asarazan/Downloads/360ControllerSource/Feedback360/main.c normal i386 c com.apple.compilers.llvmgcc42
-s346047580.549550
-e346047586.261254
-r1
-xCompileC
-xbuild/Feedback360.build/Deployment/Feedback360.build/Objects-normal/i386/main.o
-x/Users/asarazan/Downloads/360ControllerSource/Feedback360/main.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvmgcc42
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/asarazan/Downloads/360ControllerSource/Feedback360/main.c2ac78c5c44a0b441^9ce1426244a0b441^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/asarazan/Downloads/360ControllerSource/Feedback360/main.c0000000000000000^1191"CompileC build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/i386/main.o main.c normal i386 c com.apple.compilers.llvmgcc42    cd /Users/asarazan/Downloads/360ControllerSource/Feedback360    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -I/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Feedback360.hmap -I/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment/include -I/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/DerivedSources/i386 -I/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/DerivedSources -F/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment -c /Users/asarazan/Downloads/360ControllerSource/Feedback360/main.c -o /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/i386/main.o36"56D3AA44-12EA-4660-A5E9-08A6F4277A09-
-
-CCompileC build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/x86_64/devlink.o /Users/asarazan/Downloads/360ControllerSource/Feedback360/devlink.c normal x86_64 c com.apple.compilers.llvmgcc42
-s346047580.548974
-e346047586.187819
-r1
-xCompileC
-xbuild/Feedback360.build/Deployment/Feedback360.build/Objects-normal/x86_64/devlink.o
-x/Users/asarazan/Downloads/360ControllerSource/Feedback360/devlink.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.llvmgcc42
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/asarazan/Downloads/360ControllerSource/Feedback360/devlink.c20b28c5c44a0b441^8e21306244a0b441^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/asarazan/Downloads/360ControllerSource/Feedback360/devlink.c0000000000000000^1213"CompileC build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/x86_64/devlink.o devlink.c normal x86_64 c com.apple.compilers.llvmgcc42    cd /Users/asarazan/Downloads/360ControllerSource/Feedback360    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -I/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Feedback360.hmap -I/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment/include -I/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/DerivedSources/x86_64 -I/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/DerivedSources -F/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment -c /Users/asarazan/Downloads/360ControllerSource/Feedback360/devlink.c -o /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/x86_64/devlink.o36"23D08698-5F85-40ED-8D3D-9D1F2A3A31DC-
-
-CCompileC build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/x86_64/emulator.o /Users/asarazan/Downloads/360ControllerSource/Feedback360/emulator.c normal x86_64 c com.apple.compilers.llvmgcc42
-s346047580.548983
-e346047586.176522
-r1
-xCompileC
-xbuild/Feedback360.build/Deployment/Feedback360.build/Objects-normal/x86_64/emulator.o
-x/Users/asarazan/Downloads/360ControllerSource/Feedback360/emulator.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.llvmgcc42
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/asarazan/Downloads/360ControllerSource/Feedback360/emulator.ceeb18c5c44a0b441^9c302d6244a0b441^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/asarazan/Downloads/360ControllerSource/Feedback360/emulator.c0000000000000000^1217"CompileC build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/x86_64/emulator.o emulator.c normal x86_64 c com.apple.compilers.llvmgcc42    cd /Users/asarazan/Downloads/360ControllerSource/Feedback360    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -I/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Feedback360.hmap -I/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment/include -I/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/DerivedSources/x86_64 -I/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/DerivedSources -F/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment -c /Users/asarazan/Downloads/360ControllerSource/Feedback360/emulator.c -o /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/x86_64/emulator.o36"37C6031A-7204-438D-B24B-D5E41C30780B-
-
-CCompileC build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/x86_64/main.o /Users/asarazan/Downloads/360ControllerSource/Feedback360/main.c normal x86_64 c com.apple.compilers.llvmgcc42
-s346047580.548971
-e346047586.260631
-r1
-xCompileC
-xbuild/Feedback360.build/Deployment/Feedback360.build/Objects-normal/x86_64/main.o
-x/Users/asarazan/Downloads/360ControllerSource/Feedback360/main.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.llvmgcc42
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/asarazan/Downloads/360ControllerSource/Feedback360/main.cabb18c5c44a0b441^cfba426244a0b441^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/asarazan/Downloads/360ControllerSource/Feedback360/main.c0000000000000000^1201"CompileC build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/x86_64/main.o main.c normal x86_64 c com.apple.compilers.llvmgcc42    cd /Users/asarazan/Downloads/360ControllerSource/Feedback360    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -I/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Feedback360.hmap -I/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment/include -I/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/DerivedSources/x86_64 -I/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/DerivedSources -F/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment -c /Users/asarazan/Downloads/360ControllerSource/Feedback360/main.c -o /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/x86_64/main.o36"1F64CFE7-F89C-4BD0-A294-6812452EFE72-
-
-CCopyStringsFile /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment/Feedback360.bundle/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-s346047580.536331
-e346047580.539954
-r1
-xCopyStringsFile
-x/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment/Feedback360.bundle/Contents/Resources/English.lproj/InfoPlist.strings
-xEnglish.lproj/InfoPlist.strings
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy English.lproj/InfoPlist.strings7767895c44a0b441^8e3a8a5c44a0b441^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/asarazan/Downloads/360ControllerSource/Feedback360/English.lproj/InfoPlist.strings0000000000000000^453"CopyStringsFile build/Deployment/Feedback360.bundle/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings    cd /Users/asarazan/Downloads/360ControllerSource/Feedback360    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment/Feedback360.bundle/Contents/Resources/English.lproj -- English.lproj/InfoPlist.strings36"3529E0E7-6FA4-4AE6-B2DF-E202657F5110-
-
-CCreateUniversalBinary /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment/Feedback360.bundle/Contents/MacOS/Feedback360 normal "x86_64 i386"
-s346047588.783632
-e346047588.863734
-r1
-xCreateUniversalBinary
-x/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment/Feedback360.bundle/Contents/MacOS/Feedback360
-xnormal
-xx86_64 i386
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection144"Create universal binary /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment/Feedback360.bundle/Contents/MacOS/Feedback36036adc86444a0b441^041ddd6444a0b441^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment/Feedback360.bundle/Contents/MacOS/Feedback36000f4b8c9deffdf42^614"CreateUniversalBinary build/Deployment/Feedback360.bundle/Contents/MacOS/Feedback360 normal "x86_64 i386"    cd /Users/asarazan/Downloads/360ControllerSource/Feedback360    /usr/bin/lipo -create /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/x86_64/Feedback360 /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/i386/Feedback360 -output /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment/Feedback360.bundle/Contents/MacOS/Feedback36036"7AEC58E5-6B8F-4AA9-8AE8-B48E5BDB2F8A-
-
-CLd /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/i386/Feedback360 normal i386
-s346047586.716678
-e346047588.775716
-r1
-xLd
-x/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/i386/Feedback360
-xnormal
-xi386
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Link /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/i386/Feedback360058bb76244a0b441^7fa2c66444a0b441^---0#0#0#--862"Ld build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/i386/Feedback360 normal i386    cd /Users/asarazan/Downloads/360ControllerSource/Feedback360    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Developer/usr/bin/llvm-gcc-4.2 -arch i386 -bundle -isysroot /Developer/SDKs/MacOSX10.7.sdk -L/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment -F/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment -filelist /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/i386/Feedback360.LinkFileList -mmacosx-version-min=10.7 -framework CoreFoundation -framework ForceFeedback -framework IOKit -o /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/i386/Feedback36036"20622C37-92BC-4951-9C67-2835272CEA5D-
-
-CLd /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/x86_64/Feedback360 normal x86_64
-s346047586.267723
-e346047588.775717
-r1
-xLd
-x/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/x86_64/Feedback360
-xnormal
-xx86_64
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection149"Link /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/x86_64/Feedback360a8aa446244a0b441^5f96c66444a0b441^---0#0#0#--872"Ld build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/x86_64/Feedback360 normal x86_64    cd /Users/asarazan/Downloads/360ControllerSource/Feedback360    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Developer/usr/bin/llvm-gcc-4.2 -arch x86_64 -bundle -isysroot /Developer/SDKs/MacOSX10.7.sdk -L/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment -F/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment -filelist /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/x86_64/Feedback360.LinkFileList -mmacosx-version-min=10.7 -framework CoreFoundation -framework ForceFeedback -framework IOKit -o /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Feedback360.build/Deployment/Feedback360.build/Objects-normal/x86_64/Feedback36036"35197984-170E-429F-BE74-7E4020610617-
-
-CProcessInfoPlistFile /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment/Feedback360.bundle/Contents/Info.plist Info.plist
-s346047580.523754
-e346047580.528192
-r1
-xProcessInfoPlistFile
-x/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment/Feedback360.bundle/Contents/Info.plist
-xInfo.plist
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist7d3e865c44a0b441^1137875c44a0b441^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/asarazan/Downloads/360ControllerSource/Feedback360/Info.plist0000000000000000^348"ProcessInfoPlistFile build/Deployment/Feedback360.bundle/Contents/Info.plist Info.plist    cd /Users/asarazan/Downloads/360ControllerSource/Feedback360    builtin-infoPlistUtility Info.plist -expandbuildsettings -platform macosx -o /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment/Feedback360.bundle/Contents/Info.plist36"4EFB7A38-93F7-42E9-95A3-DA68B9A289F3-
-
-CTouch /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment/Feedback360.bundle
-s346047588.872501
-e346047588.901092
-r1
-xTouch
-x/Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment/Feedback360.bundle
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Touch /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment/Feedback360.bundlec66adf6444a0b441^e2aee66444a0b441^---0#0#0#--223"Touch build/Deployment/Feedback360.bundle    cd /Users/asarazan/Downloads/360ControllerSource/Feedback360    /usr/bin/touch -c /Users/asarazan/Downloads/360ControllerSource/Feedback360/build/Deployment/Feedback360.bundle36"C9F074F8-B567-4101-B2FC-A5BD150A0E2B-
-
