@@ -212,7 +212,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.2;
 				PREBINDING = NO;
-				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.2.8.sdk";
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -224,8 +224,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.2;
 				PREBINDING = NO;
-				SDKROOT = macosx10.5;
-				"SDKROOT[arch=x86_64]" = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+				SDKROOT = macosx;
+				"SDKROOT[arch=x86_64]" = macosx;
 			};
 			name = Release;
 		};
