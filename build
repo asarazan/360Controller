@@ -54,6 +54,7 @@ freeze Install360Controller.packproj
 mv build 360ControllerInstall
 hdiutil create -srcfolder 360ControllerInstall -format UDZO ../../360ControllerInstall.dmg
 mv 360ControllerInstall build
+cp -r build ../dist
 cd ..
 echo "** File contents **"
 lipo -info 360Controller/build/Deployment/360Controller.kext/Contents/MacOS/360Controller
