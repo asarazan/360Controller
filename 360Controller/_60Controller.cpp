@@ -531,7 +531,7 @@ void Xbox360Peripheral::stop(IOService *provider)
 // Releases all the objects used
 void Xbox360Peripheral::ReleaseAll(void)
 {
-    LockRequired locker(mainLock);
+//    LockRequired locker(mainLock);
     
 	SerialDisconnect();
 	PadDisconnect();
